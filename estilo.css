@@ -1,0 +1,96 @@
+body {
+    background-color: #357e78;
+    font: normal 15pt Arial;
+    min-width: 320px;
+}
+
+
+h1 {
+    width: 100%;
+    background-color: #357e78;
+    text-align: center; 
+}
+
+img#logo {   
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.7);
+    background-color: #357e56;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgba(11, 56, 73, 0.507);
+    color: white;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.7);
+}
+
+div#img {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+p#equacao {
+    font-size: 19pt;
+}
+
+div#caixas {
+    text-align: center;  
+}
+
+div#resultado {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25pt;
+}
+
+input {
+    background-color: #357e56;
+    font: normal 15pt Arial;
+    width: 100px;
+    margin-top: 20px;
+    
+}
+
+input#botao {
+    padding: 10px;
+    margin-left: 20px;
+    display: relative;
+    
+}
+
+input#botao:hover {
+    background-color: rgb(192, 55, 20);    
+}
+
+input#a:hover {
+    background-color: rgb(206, 171, 18);
+}
+
+input#b:hover {
+    background-color: rgb(206, 171, 18);
+}
+
+input#c:hover {
+    background-color: rgb(206, 171, 18);
+}
+
+@media screen and (max-width:500px) {
+    div.cel {
+        display: block;
+    }
+    #logo {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:1014px) {
+    div.cel {
+        display: inline-block;
+    }
+}
+

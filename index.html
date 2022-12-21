@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaskara</title>
+    <script src="interacao.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+    <section id="tela">
+        <div id="intrucao">
+            <h1>Calcular equações do 2º grau</h1>
+
+            <div id="img">
+                <img src="logo.png" id="logo">
+            </div>
+            
+            <h2>Instruções</h2>
+            <p>Vamos utilizar a fórmula da imagem a cima.</p>
+            <p>Para Calcular a equação do 2º grau, você precisa saber os coeficientes, temos 3:</p>
+            <p><strong>a</strong> que acompanha o termo de grau 2, <strong>b</strong> que acompanha o termo de grau 1, e <strong>c</strong> que é o termo independente, exemplo: </p>
+            <p id="equacao"><strong>ax<sup>2</sup> + bx + c</strong></p>
+        </div>
+
+        <div id="caixas">
+            <div class="cel">Informe o coeficiente <strong>a</strong>:
+            <input type="number" id="a"></div>
+            <div class="cel">Informe o coeficiente <strong>b</strong>:
+            <input type="number" id="b"></div>
+            <div class="cel">Informe o coeficiente <strong>c</strong>:
+            <input type="number" id="c"></div>
+            <div class="cel"><input type="button" value="Calcular" id="botao" onclick="calcula()"></div>
+        </div>
+
+        <div id="resultado">Resultado...</div>
+    </section>
+</body>
+</html>
